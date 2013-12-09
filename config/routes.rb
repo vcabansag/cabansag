@@ -2,6 +2,8 @@ Cabansag::Application.routes.draw do
 
   resources :pages
 
-  root to: 'pages#home'
+  get '/videos' => 'pages#videos', as: :videos
+
+  root to: 'pages#videos'
 
 end
