@@ -1,7 +1,11 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
-  before_action :authenticate
+  before_action :authenticate, :load_videos
+
+  def load_videos
+    @videos = Video.find_all
+  end
 
   protected
 
