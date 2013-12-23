@@ -45,5 +45,5 @@ class ContentModel
 end
 
 class Video < ContentModel
-  attr_reader :title, :url, :date, :duration
+  attr_reader :title, :url, :date, :duration, :format
 end
