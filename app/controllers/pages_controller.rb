@@ -5,6 +5,7 @@ class PagesController < ApplicationController
 
   def videos
     @videos = Video.find_all
+    @minutes = Video.find_all.collect { |video| video.duration }.inject { |sum, x| sum + x }
   end
 
 end
