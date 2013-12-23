@@ -173,12 +173,12 @@ $default-float: left;
 // Control header font styles
 
  $header-font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $header-font-weight: bold;
+ $header-font-weight: 700;
 // $header-font-style: normal;
-// $header-font-color: #222;
-// $header-line-height: 1.4;
-// $header-top-margin: .2em;
-// $header-bottom-margin: .5em;
+ $header-font-color: #222;
+ $header-line-height: 1.2;
+ $header-top-margin: .18em;
+ $header-bottom-margin: 0em;
 // $header-text-rendering: optimizeLegibility;
 
 // Control header font sizes
@@ -193,9 +193,9 @@ $default-float: left;
 // Control how subheaders are styled.
 
 // $subheader-line-height: 1.4;
-// $subheader-font-color: lighten($header-font-color, 30%);
-// $subheader-font-weight: 300;
-// $subheader-top-margin: .2em;
+ $subheader-font-color: lighten($header-font-color, 30%);
+ $subheader-font-weight: 700;
+ $subheader-top-margin: 0em;
 // $subheader-bottom-margin: .5em;
 
 // A general <small> styling
@@ -694,6 +694,7 @@ $default-float: left;
 // $flex-video-padding-top: em-calc(25);
 // $flex-video-padding-bottom: 67.5%;
 // $flex-video-margin-bottom: em-calc(16);
+ $flex-video-margin-bottom: em-calc(0);
 
 // We use this to control widescreen bottom padding
 
