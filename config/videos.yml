@@ -54,6 +54,12 @@ videos:
     duration: 21
     format: vhs
 
+  - title: New York City
+    date: July 18, 1989
+    url: 82554519
+    duration: 24
+    format: vhs
+
   - title: Princeton
     date: July 19, 1989
     url: 81105123
