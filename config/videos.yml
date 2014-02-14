@@ -131,3 +131,15 @@ videos:
     url: 81994312
     duration: 69
     format: vhs
+
+  - title: Anne & Vince's Wedding Day
+    date: October 12, 2012
+    url: 72575362
+    duration: 8
+    format: HD
+
+  - title: In Memory of Sufragista DeGuzman
+    date: 20014
+    url: 86629336 
+    duration: 11
+    format: slideshow
