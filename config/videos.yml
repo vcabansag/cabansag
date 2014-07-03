@@ -139,7 +139,13 @@ videos:
     format: HD
 
   - title: In Memory of Sufragista DeGuzman
-    date: 20014
-    url: 86629336 
+    date: 2014
+    url: 86629336
     duration: 11
     format: slideshow
+
+  - title: Karen's 40th Birthday Video Card
+    date: July 2, 2014
+    url: 99841383
+    duration: 2
+    format: HD
